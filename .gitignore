@@ -1,0 +1,22 @@
+# Local Python environment and generated caches.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+
+# Competition data, generated indexes, model outputs, and the live database.
+# Keep only the placeholder so a fresh checkout has the data directory.
+/data/*
+!/data/.gitkeep
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local logs and personal notes.
+*.log
+/问题记录.txt

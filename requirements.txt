@@ -1,0 +1,9 @@
+# Versions verified in the project's Python 3.11.9 virtual environment.
+# Direct application dependencies; pip resolves their transitive dependencies.
+openpyxl==3.1.5
+jieba==0.42.1
+rank-bm25==0.2.2
+qdrant-client==1.19.0
+sentence-transformers==6.0.1
+transformers==5.17.0
+torch==2.14.0

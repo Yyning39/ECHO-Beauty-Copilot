@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECHO Beauty｜美妆服务共情副驾</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-mark"><span class="brand-dot"></span><div><strong>ECHO</strong><small>BEAUTY</small></div></div>
+      <div class="workspace-label">客服工作台</div>
+      <nav class="primary-nav">
+        <button class="nav-item active" data-view="copilot"><span>◈</span>接待辅助</button>
+        <button class="nav-item" data-view="risk"><span>◉</span>风险中心 <em id="risk-nav-count">0</em></button>
+        <button class="nav-item" data-view="insight"><span>⌁</span>服务洞察</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="online-pill"><i></i>AI 服务在线</div>
+        <div class="user-mini"><div class="avatar lavender">A</div><div><strong>测试客服</strong><small>客服组 A05</small></div><span>⌄</span></div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div><span class="eyebrow">SERVICE EMPATHY CONSOLE</span><h1 id="page-title">接待辅助</h1></div>
+        <div class="top-actions"><div class="status-chip"><i></i>数据已同步 <span>刚刚</span></div><button class="icon-button">?</button><button class="avatar sky">A</button></div>
+      </header>
+
+      <section id="copilot-view" class="view active-view">
+        <div class="metric-row">
+          <div class="metric-card"><span>今日接待</span><strong>42</strong><small class="up">↑ 18% <b>较昨日</b></small></div>
+          <div class="metric-card"><span>待处理风险</span><strong id="risk-metric-count" class="red-text">0</strong><small class="warn">需要关注</small></div>
+          <div class="metric-card"><span>AI 建议采纳率</span><strong>86%</strong><small class="up">↑ 9% <b>本周</b></small></div>
+          <div class="metric-card"><span>平均响应时间</span><strong>38<span class="unit">s</span></strong><small class="up">↓ 12% <b>本周</b></small></div>
+        </div>
+
+        <div class="workbench-grid">
+          <section class="panel conversation-list">
+            <div class="panel-head"><div><span class="eyebrow">INBOX</span><h2>当前接待 <b id="inbox-count">0</b></h2></div><button class="plain-button">筛选 ˅</button></div>
+            <div id="case-list" class="case-list"></div>
+            <div class="list-foot"><span><i class="green-dot"></i> 3 个会话进行中</span><button class="plain-button">查看全部 →</button></div>
+          </section>
+
+          <section class="panel chat-panel">
+            <div class="chat-head"><div class="customer-title"><div id="customer-avatar" class="avatar coral">熊</div><div><h2 id="customer-name">熊g**</h2><div class="subline"><span id="customer-scene" class="tag blue-tag">物流异常</span><span id="customer-last">刚刚活跃</span></div></div></div><div class="chat-tools"><button class="round-action">↗</button><button class="round-action">⋯</button></div></div>
+            <div class="product-strip"><div class="product-thumb">✦</div><div><strong id="order-product">粉底液 30ml #N02 自然色</strong><small id="order-meta">订单已发货 · ¥369</small></div><button>查看订单 →</button></div>
+            <div id="chat-messages" class="chat-messages"></div>
+            <div class="composer"><div class="composer-toolbar"><span>☺</span><span>⌘</span><span>▣</span><span>＠</span><span>✦</span><div></div><span>⌕</span></div><textarea id="reply-box" placeholder="输入回复，或让 AI 帮你拟定"></textarea><div class="composer-foot"><span>Enter 发送 · Shift + Enter 换行</span><button class="send-button">发送 <span>⌄</span></button></div></div>
+          </section>
+
+          <section class="panel copilot-panel">
+            <div class="copilot-tabs"><button class="active">AI 共情副驾</button><button>用户画像</button></div>
+            <div class="copilot-scroll">
+              <div class="section-title"><span>当前判断</span><span class="live-label"><i></i>实时分析</span></div>
+              <div class="insight-grid"><div class="insight-box"><small>问题类型</small><strong id="issue-type">包裹破损</strong><span>置信度 96%</span></div><div class="insight-box"><small>情绪状态</small><strong id="emotion-state">焦虑上升</strong><div id="emotion-bars" class="emotion-bars"><i></i><i></i><i></i><i></i><i></i></div></div></div>
+              <div id="risk-card" class="risk-card amber-card"><div class="risk-title"><span class="risk-icon">!</span><div><small>服务风险</small><strong id="risk-level">中风险</strong></div><span class="risk-chevron">⌄</span></div><p id="risk-reason">用户反馈包裹破损，当前物流工单仍未完结，建议优先确认补发方案。</p></div>
+              <div class="section-title margin-top"><span>AI 建议回复</span><span class="source-count">3 个依据</span></div>
+              <div class="suggestion-card"><div class="suggestion-top"><span class="ai-spark">✦</span><span>共情 · 解决方案</span><button id="regenerate-button" class="plain-button">重新生成 ↻</button></div><p id="reply-suggestion"></p><div class="evidence-list" id="evidence-list"></div><div class="suggestion-actions"><button id="copy-button" class="secondary-button">复制回复</button><button id="use-button" class="primary-button">使用此回复</button></div></div>
+              <div class="section-title margin-top"><span>建议下一步</span></div>
+              <div class="action-list"><button id="event-button"><span class="action-icon amber-bg">◉</span><div><strong>创建风险事件</strong><small>同步到风险中心并跟踪</small></div><span class="action-arrow">→</span></button><button id="handoff-button"><span class="action-icon purple-bg">↗</span><div><strong>升级高级客服</strong><small>将当前会话交接给主管</small></div><span class="action-arrow">→</span></button></div>
+              <div class="agent-trace"><div class="trace-head"><span>Agent 工作轨迹</span><span class="trace-time">本轮 1.8s</span></div><div class="trace-step done"><i>✓</i><span>读取会话与用户历史</span><em>完成</em></div><div class="trace-step done"><i>✓</i><span>关联订单与服务工单</span><em>完成</em></div><div class="trace-step active"><i>✦</i><span>生成共情回复建议</span><em>进行中</em></div></div>
+            </div>
+          </section>
+        </div>
+
+        <div class="lower-grid"><section class="panel timeline-panel"><div class="panel-head"><div><span class="eyebrow">CUSTOMER JOURNEY</span><h2>服务全轨迹</h2></div><button class="plain-button">按时间排序 ↓</button></div><div id="timeline" class="timeline"></div></section><section class="panel profile-panel"><div class="panel-head"><div><span class="eyebrow">CUSTOMER SNAPSHOT</span><h2>用户服务画像</h2></div><button class="plain-button">详情 →</button></div><div class="profile-stats"><div><small>累计进线</small><strong id="profile-contacts">2</strong></div><div><small>近期开单</small><strong id="profile-tickets">1</strong></div><div><small>满意度</small><strong>—</strong></div></div><div class="profile-note"><span>✦</span><div><strong>服务提示</strong><p id="profile-note">用户正在等待补发处理，回复中应明确下一步和时间预期。</p></div></div></section></div>
+      </section>
+
+      <section id="risk-view" class="view"><div class="risk-hero"><div><span class="eyebrow">RISK CONTROL CENTER</span><h2>风险预警与闭环</h2><p>将隐性服务风险转化为可解释、可分派、可跟踪的处理事件。</p></div><button class="primary-button">导出今日简报 ↓</button></div><div class="risk-kpis"><div><span>待处理风险</span><strong id="risk-kpi-count" class="red-text">0</strong><small>来自当前数据集</small></div><div><span>高风险会话</span><strong id="high-risk-count">0</strong><small>需要人工升级</small></div><div><span>平均响应</span><strong>—</strong><small>待接入实时指标</small></div><div><span>闭环率</span><strong>—</strong><small>待接入人工处理记录</small></div></div><div class="panel risk-table-panel"><div class="panel-head"><div><span class="eyebrow">LIVE QUEUE</span><h2>风险事件队列</h2></div><div class="filter-pills"><button class="active">全部 <span id="risk-filter-count">0</span></button><button>高风险 <span id="high-risk-filter-count">0</span></button><button>处理中 <span id="processing-risk-filter-count">0</span></button></div></div><div id="risk-table" class="risk-table"></div></div></section>
+
+      <section id="insight-view" class="view"><div class="risk-hero"><div><span class="eyebrow">SERVICE INSIGHT</span><h2>服务洞察</h2><p>用数据观察消费者情绪、问题类型和服务处理效率。</p></div></div><div class="insight-dashboard"><div class="panel chart-panel"><div class="panel-head"><div><span class="eyebrow">EMOTION TREND</span><h2>情绪升级趋势</h2></div><span class="chart-period">近 7 天 ˅</span></div><div class="fake-chart"><div class="chart-line"></div><div class="chart-labels"><span>周一</span><span>周二</span><span>周三</span><span>周四</span><span>周五</span><span>周六</span><span>周日</span></div></div></div><div class="panel chart-panel"><div class="panel-head"><div><span class="eyebrow">TOP ISSUES</span><h2>高频问题类型</h2></div></div><div class="bar-list"><div><span>物流异常</span><i><b style="width:82%"></b></i><strong>32</strong></div><div><span>产品咨询</span><i><b style="width:68%"></b></i><strong>27</strong></div><div><span>售后退货</span><i><b style="width:53%"></b></i><strong>21</strong></div><div><span>不良反应</span><i><b style="width:34%"></b></i><strong>14</strong></div></div></div></div></section>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

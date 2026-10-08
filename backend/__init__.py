@@ -1,0 +1,2 @@
+"""ECHO Beauty backend package."""
+
