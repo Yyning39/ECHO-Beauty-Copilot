@@ -1,0 +1,845 @@
+{
+  "query": "收到的粉底液泵头坏了，怎么处理",
+  "current_session_id": "S00001",
+  "retrieval": {
+    "bm25_result_count": 20,
+    "dense_result_count": 20,
+    "hybrid_result_count": 5,
+    "hybrid_results": [
+      {
+        "chunk_id": "S00001:chunk:000",
+        "parent_id": "session:S00001",
+        "session_id": "S00001",
+        "buyer_nicknames": [
+          "邓e**"
+        ],
+        "order_nos": [
+          "6920185815517983396"
+        ],
+        "ticket_nos": [
+          "BH919209358357"
+        ],
+        "chunk_index": 0,
+        "message_count": 6,
+        "start_at": null,
+        "end_at": null,
+        "text": "历史服务会话：S00001\n买家:你好，收到的粉底液泵头是坏的，按不出来东西，急\n客服:亲亲抱歉！麻烦拍下破损部位的照片发给测试客服，为您核实换货哈~\n买家:喏，图发你了\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:行，那尽快哈\n客服:换货单已创建，48小时内发出，给您带来不便啦~",
+        "message_ids": [
+          "20974795108539.PNM",
+          "51831669257761.PNM",
+          "80525870445254.PNM",
+          "22703823958720.PNM",
+          "94357468399952.PNM",
+          "36199788469718.PNM"
+        ],
+        "doc_id": 0,
+        "source_index": 0,
+        "bm25_score": 19.358295,
+        "matched_query_tokens": [
+          "收到",
+          "的",
+          "粉底液",
+          "泵头",
+          "坏",
+          "了"
+        ],
+        "rrf_score": 0.032787,
+        "retrieval_sources": [
+          "bm25",
+          "dense"
+        ],
+        "bm25_rank": 1,
+        "dense_rank": 1,
+        "dense_score": 0.806548,
+        "point_id": 0,
+        "score": 0.806548
+      },
+      {
+        "chunk_id": "S00137:chunk:000",
+        "parent_id": "session:S00137",
+        "session_id": "S00137",
+        "buyer_nicknames": [
+          "杨b**"
+        ],
+        "order_nos": [
+          "6920091662302260596"
+        ],
+        "ticket_nos": [
+          "BH819557327939"
+        ],
+        "chunk_index": 0,
+        "message_count": 6,
+        "start_at": null,
+        "end_at": null,
+        "text": "历史服务会话：S00137\n买家:你好，收到的发膜泵头是坏的，按不出来东西\n客服:亲亲抱歉！麻烦拍下破损部位的照片发给测试客服，为您核实换货~\n买家:照片发过去了，帮我处理下吧\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:好的，谢谢\n客服:换货单已创建，48小时内发出，给您带来不便啦~",
+        "message_ids": [
+          "10771589530439.PNM",
+          "16244313117328.PNM",
+          "18738871329607.PNM",
+          "54132325059434.PNM",
+          "77628749614537.PNM",
+          "74506675133145.PNM"
+        ],
+        "doc_id": 109,
+        "source_index": 109,
+        "bm25_score": 11.53049,
+        "matched_query_tokens": [
+          "收到",
+          "的",
+          "坏",
+          "了",
+          "处理"
+        ],
+        "rrf_score": 0.032258,
+        "retrieval_sources": [
+          "bm25",
+          "dense"
+        ],
+        "bm25_rank": 2,
+        "dense_rank": 2,
+        "dense_score": 0.711465,
+        "point_id": 109,
+        "score": 0.711465
+      },
+      {
+        "chunk_id": "S00203:chunk:000",
+        "parent_id": "session:S00203",
+        "session_id": "S00203",
+        "buyer_nicknames": [
+          "爱h**"
+        ],
+        "order_nos": [
+          "6920834449460645989"
+        ],
+        "ticket_nos": [
+          "BH946416168326"
+        ],
+        "chunk_index": 0,
+        "message_count": 7,
+        "start_at": null,
+        "end_at": null,
+        "text": "历史服务会话：S00203\n买家:你好，收到的唇釉泵头是坏的，按不出来东西\n客服:亲抱歉！麻烦拍下破损部位的照片发给欣欣，为您核实换货呢~\n买家:照片发过去了，帮我处理下吧\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:在吗，好的，谢谢\n客服:换货单已创建，48小时内发出，给您带来不便啦~\n客服:后续有任何问题随时找欣欣哦，祝您使用愉快~",
+        "message_ids": [
+          "67888253569617.PNM",
+          "19222036505044.PNM",
+          "13172315202622.PNM",
+          "48596283283981.PNM",
+          "63815657377920.PNM",
+          "82135978766915.PNM",
+          "48540701615245.PNM"
+        ],
+        "doc_id": 124,
+        "source_index": 124,
+        "bm25_score": 11.086751,
+        "matched_query_tokens": [
+          "收到",
+          "的",
+          "坏",
+          "了",
+          "处理"
+        ],
+        "rrf_score": 0.031746,
+        "retrieval_sources": [
+          "bm25",
+          "dense"
+        ],
+        "bm25_rank": 3,
+        "dense_rank": 3,
+        "dense_score": 0.683051,
+        "point_id": 124,
+        "score": 0.683051
+      },
+      {
+        "chunk_id": "S00076:chunk:000",
+        "parent_id": "session:S00076",
+        "session_id": "S00076",
+        "buyer_nicknames": [
+          "贺**"
+        ],
+        "order_nos": [
+          "6920527885849331832"
+        ],
+        "ticket_nos": [
+          "KOC2531140"
+        ],
+        "chunk_index": 0,
+        "message_count": 9,
+        "start_at": null,
+        "end_at": null,
+        "text": "历史服务会话：S00076\n买家:我在专柜对比了，你们发的粉底液膏体颜色不一样，质地也稀，是不是给我发的假货？！哦\n客服:亲请放心，官方旗舰店所有商品与专柜同源，绝无假货。不同批次间原料存在合理差异~您可以刮开防伪码验证，也可以把批次号发我帮您查~\n买家:批次号26A27，你查！查不出来我就去平台举报，急\n客服:查到批次26A27为今年3月正常生产批次，质检报告可以发您。当然，如果您仍不放心，完全支持退货退款，运费我们承担，绝不让您勉强使用哈~\n买家:行，那退吧，报告也发我一份，我自己看\n客服:好的亲，退货申请这边直接给您通过，质检报告已发送。仓库签收后当天退款~\n买家:收到，处理挺痛快，就是希望品控上点心\n客服:好的亲，还有其他可以帮您的吗？祝您生活愉快~\n系统推送:【测试积分】您已累计2860积分，可在积分商城兑换小样好礼，快来看看~",
+        "message_ids": [
+          "87876031612223.PNM",
+          "62747503042360.PNM",
+          "92900836378476.PNM",
+          "99981856230927.PNM",
+          "12231567697227.PNM",
+          "44823773515997.PNM",
+          "72152884051374.PNM",
+          "37234694467079.PNM",
+          "69182903606382.PNM"
+        ],
+        "doc_id": 75,
+        "source_index": 75,
+        "bm25_score": 7.084091,
+        "matched_query_tokens": [
+          "收到",
+          "的",
+          "粉底液",
+          "了",
+          "处理"
+        ],
+        "rrf_score": 0.03101,
+        "retrieval_sources": [
+          "bm25",
+          "dense"
+        ],
+        "bm25_rank": 5,
+        "dense_rank": 4,
+        "dense_score": 0.576456,
+        "point_id": 75,
+        "score": 0.576456
+      },
+      {
+        "chunk_id": "S00050:chunk:000",
+        "parent_id": "session:S00050",
+        "session_id": "S00050",
+        "buyer_nicknames": [
+          "杨d**"
+        ],
+        "order_nos": [
+          "6920950249822526532"
+        ],
+        "ticket_nos": [
+          "WL968485853"
+        ],
+        "chunk_index": 0,
+        "message_count": 7,
+        "start_at": null,
+        "end_at": null,
+        "text": "历史服务会话：S00050\n买家:无语了，刚拆的包裹，精华瓶子直接碎了，玻璃渣混着精华洒得到处都是！\n客服:亲亲实在抱歉！让您受惊了，碎瓶请千万小心不要划伤手！麻烦您拍几张商品和外箱的照片发给测试客服，马上为您处理~\n买家:图给你了，这还咋用啊，必须给我个说法\n客服:收到照片了亲，确认是运输破损，实在抱歉！这边直接给您原地址补发一件全新的精华，破损的不用寄回，您处理掉就好，注意安全~\n买家:那还行……什么时候能发？，麻烦了\n客服:今天就给您用顺丰发出哦，预计后天送达，单号出来第一时间发您~再送您一份测试护发精油小样10ml压压惊~\n买家:好的好的，那谢谢啦",
+        "message_ids": [
+          "21618851626141.PNM",
+          "54676814025845.PNM",
+          "43340292287207.PNM",
+          "99737237127029.PNM",
+          "18990877495003.PNM",
+          "47653266063676.PNM",
+          "86930028862889.PNM"
+        ],
+        "doc_id": 49,
+        "source_index": 49,
+        "bm25_score": 5.899271,
+        "matched_query_tokens": [
+          "收到",
+          "的",
+          "了",
+          "处理"
+        ],
+        "rrf_score": 0.02885,
+        "retrieval_sources": [
+          "bm25",
+          "dense"
+        ],
+        "bm25_rank": 13,
+        "dense_rank": 6,
+        "dense_score": 0.564363,
+        "point_id": 49,
+        "score": 0.564363
+      }
+    ]
+  },
+  "business_context": {
+    "current_case": {
+      "session": {
+        "session_id": "S00001",
+        "buyer_nickname": "邓e**",
+        "store": "测试美妆旗舰店",
+        "first_message_at": "2026-04-29 08:27:45",
+        "last_message_at": "2026-05-05 10:29:45"
+      },
+      "orders": [
+        {
+          "order_no": "6920185815517983396",
+          "product_name": "测试轻透粉底液30ml #N02自然色",
+          "quantity": 1.0,
+          "paid_amount": 259.0,
+          "order_status": "已发货",
+          "ordered_at": "2026-04-29 08:27:45",
+          "paid_at": "2026-04-29 08:50:45",
+          "shipped_at": "2026-04-30 08:50:45",
+          "carrier": "中通快递",
+          "tracking_no": "773478190943155"
+        }
+      ],
+      "tickets": [
+        {
+          "ticket_no": "BH919209358357",
+          "ticket_type": "补发换货",
+          "order_no": "6920185815517983396",
+          "status": "进行中",
+          "handler": "G003",
+          "created_at": "2026-05-05 10:29:45",
+          "completed_at": null,
+          "detail": {
+            "工单类型": "换货",
+            "售后原因": "换货-到手破损",
+            "发出商品货号": "XC33003",
+            "发出商品名称": "测试轻透粉底液30ml #N02自然色",
+            "数量": 1,
+            "原订单物流单号": "773478190943155",
+            "补发物流单号": "YT7667875838478",
+            "快递公司": "圆通快递",
+            "发货仓库": "测试美妆分销中心",
+            "客诉加急": "否"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "event_time": "2026-04-29 08:27:45",
+          "event_type": "order",
+          "title": "创建订单",
+          "status": "已发货",
+          "source_type": "order",
+          "source_id": "6920185815517983396"
+        },
+        {
+          "event_time": "2026-05-05 10:18:45",
+          "event_type": "chat",
+          "title": "买家消息",
+          "status": null,
+          "source_type": "chat",
+          "source_id": "20974795108539.PNM"
+        },
+        {
+          "event_time": "2026-05-05 10:20:59",
+          "event_type": "chat",
+          "title": "客服消息",
+          "status": null,
+          "source_type": "chat",
+          "source_id": "51831669257761.PNM"
+        },
+        {
+          "event_time": "2026-05-05 10:21:38",
+          "event_type": "chat",
+          "title": "买家消息",
+          "status": null,
+          "source_type": "chat",
+          "source_id": "80525870445254.PNM"
+        },
+        {
+          "event_time": "2026-05-05 10:24:13",
+          "event_type": "chat",
+          "title": "客服消息",
+          "status": null,
+          "source_type": "chat",
+          "source_id": "22703823958720.PNM"
+        },
+        {
+          "event_time": "2026-05-05 10:25:13",
+          "event_type": "chat",
+          "title": "买家消息",
+          "status": null,
+          "source_type": "chat",
+          "source_id": "94357468399952.PNM"
+        },
+        {
+          "event_time": "2026-05-05 10:27:37",
+          "event_type": "chat",
+          "title": "客服消息",
+          "status": null,
+          "source_type": "chat",
+          "source_id": "36199788469718.PNM"
+        },
+        {
+          "event_time": "2026-05-05 10:29:45",
+          "event_type": "ticket",
+          "title": "补发换货工单",
+          "status": "进行中",
+          "source_type": "ticket",
+          "source_id": "BH919209358357"
+        }
+      ],
+      "messages": [
+        {
+          "message_id": "20974795108539.PNM",
+          "message_seq": 1,
+          "sent_at": "2026-05-05 10:18:45",
+          "role": "买家",
+          "message_text": "你好，收到的粉底液泵头是坏的，按不出来东西，急",
+          "related_order_no": "6920185815517983396",
+          "related_ticket_no": "BH919209358357",
+          "content_type": "文本",
+          "chat_content": "[{\"index\": 0, \"content\": \"你好，收到的粉底液泵头是坏的，按不出来东西，急\"}]",
+          "image_path": null
+        },
+        {
+          "message_id": "51831669257761.PNM",
+          "message_seq": 2,
+          "sent_at": "2026-05-05 10:20:59",
+          "role": "客服",
+          "message_text": "亲亲抱歉！麻烦拍下破损部位的照片发给测试客服，为您核实换货哈~",
+          "related_order_no": "6920185815517983396",
+          "related_ticket_no": "BH919209358357",
+          "content_type": "文本",
+          "chat_content": "[{\"index\": 0, \"content\": \"亲亲抱歉！麻烦拍下破损部位的照片发给测试客服，为您核实换货哈~\"}]",
+          "image_path": null
+        },
+        {
+          "message_id": "80525870445254.PNM",
+          "message_seq": 3,
+          "sent_at": "2026-05-05 10:21:38",
+          "role": "买家",
+          "message_text": "喏，图发你了",
+          "related_order_no": "6920185815517983396",
+          "related_ticket_no": "BH919209358357",
+          "content_type": "图片",
+          "chat_content": "[{\"index\": 0, \"content\": \"喏，图发你了\"}]",
+          "image_path": "mock_images/broken_pump/S00001_03.jpg"
+        },
+        {
+          "message_id": "22703823958720.PNM",
+          "message_seq": 4,
+          "sent_at": "2026-05-05 10:24:13",
+          "role": "客服",
+          "message_text": "收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~",
+          "related_order_no": "6920185815517983396",
+          "related_ticket_no": "BH919209358357",
+          "content_type": "文本",
+          "chat_content": "[{\"index\": 0, \"content\": \"收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\"}]",
+          "image_path": null
+        },
+        {
+          "message_id": "94357468399952.PNM",
+          "message_seq": 5,
+          "sent_at": "2026-05-05 10:25:13",
+          "role": "买家",
+          "message_text": "行，那尽快哈",
+          "related_order_no": "6920185815517983396",
+          "related_ticket_no": "BH919209358357",
+          "content_type": "文本",
+          "chat_content": "[{\"index\": 0, \"content\": \"行，那尽快哈\"}]",
+          "image_path": null
+        },
+        {
+          "message_id": "36199788469718.PNM",
+          "message_seq": 6,
+          "sent_at": "2026-05-05 10:27:37",
+          "role": "客服",
+          "message_text": "换货单已创建，48小时内发出，给您带来不便啦~",
+          "related_order_no": "6920185815517983396",
+          "related_ticket_no": "BH919209358357",
+          "content_type": "文本",
+          "chat_content": "[{\"index\": 0, \"content\": \"换货单已创建，48小时内发出，给您带来不便啦~\"}]",
+          "image_path": null
+        }
+      ]
+    },
+    "historical_evidence": [
+      {
+        "retrieval": {
+          "chunk_id": "S00137:chunk:000",
+          "parent_id": "session:S00137",
+          "session_id": "S00137",
+          "score": 0.032258,
+          "sources": [
+            "bm25",
+            "dense"
+          ]
+        },
+        "matched_history_text": "历史服务会话：S00137\n买家:你好，收到的发膜泵头是坏的，按不出来东西\n客服:亲亲抱歉！麻烦拍下破损部位的照片发给测试客服，为您核实换货~\n买家:照片发过去了，帮我处理下吧\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:好的，谢谢\n客服:换货单已创建，48小时内发出，给您带来不便啦~",
+        "business_facts": {
+          "session": {
+            "session_id": "S00137",
+            "buyer_nickname": "杨b**",
+            "store": "测试美妆旗舰店",
+            "first_message_at": "2026-05-03 15:39:35",
+            "last_message_at": "2026-05-10 19:38:35"
+          },
+          "orders": [
+            {
+              "order_no": "6920091662302260596",
+              "product_name": "测试滋养修护发膜250ml",
+              "quantity": 1.0,
+              "paid_amount": 159.0,
+              "order_status": "已发货",
+              "ordered_at": "2026-05-03 15:39:35",
+              "paid_at": "2026-05-03 15:45:35",
+              "shipped_at": "2026-05-05 02:45:35",
+              "carrier": "圆通快递",
+              "tracking_no": "YT7689975989966"
+            }
+          ],
+          "tickets": [
+            {
+              "ticket_no": "BH819557327939",
+              "ticket_type": "补发换货",
+              "order_no": "6920091662302260596",
+              "status": "已完结",
+              "handler": "B07",
+              "created_at": "2026-05-10 19:38:35",
+              "completed_at": "2026-05-11 00:26:35",
+              "detail": {
+                "工单类型": "换货",
+                "售后原因": "换货-到手破损",
+                "发出商品货号": "XW42502",
+                "发出商品名称": "测试滋养修护发膜250ml",
+                "数量": 1,
+                "原订单物流单号": "YT7689975989966",
+                "补发物流单号": "773740137302107",
+                "快递公司": "申通快递",
+                "发货仓库": "测试供应链华东仓",
+                "客诉加急": "否"
+              }
+            }
+          ],
+          "timeline": [
+            {
+              "event_time": "2026-05-03 15:39:35",
+              "event_type": "order",
+              "title": "创建订单",
+              "status": "已发货",
+              "source_type": "order",
+              "source_id": "6920091662302260596"
+            },
+            {
+              "event_time": "2026-05-10 19:07:35",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "10771589530439.PNM"
+            },
+            {
+              "event_time": "2026-05-10 19:09:52",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "16244313117328.PNM"
+            },
+            {
+              "event_time": "2026-05-10 19:10:42",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "18738871329607.PNM"
+            },
+            {
+              "event_time": "2026-05-10 19:12:20",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "54132325059434.PNM"
+            },
+            {
+              "event_time": "2026-05-10 19:12:46",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "77628749614537.PNM"
+            },
+            {
+              "event_time": "2026-05-10 19:15:01",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "74506675133145.PNM"
+            },
+            {
+              "event_time": "2026-05-10 19:38:35",
+              "event_type": "ticket",
+              "title": "补发换货工单",
+              "status": "已完结",
+              "source_type": "ticket",
+              "source_id": "BH819557327939"
+            }
+          ]
+        }
+      },
+      {
+        "retrieval": {
+          "chunk_id": "S00203:chunk:000",
+          "parent_id": "session:S00203",
+          "session_id": "S00203",
+          "score": 0.031746,
+          "sources": [
+            "bm25",
+            "dense"
+          ]
+        },
+        "matched_history_text": "历史服务会话：S00203\n买家:你好，收到的唇釉泵头是坏的，按不出来东西\n客服:亲抱歉！麻烦拍下破损部位的照片发给欣欣，为您核实换货呢~\n买家:照片发过去了，帮我处理下吧\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:在吗，好的，谢谢\n客服:换货单已创建，48小时内发出，给您带来不便啦~\n客服:后续有任何问题随时找欣欣哦，祝您使用愉快~",
+        "business_facts": {
+          "session": {
+            "session_id": "S00203",
+            "buyer_nickname": "爱h**",
+            "store": "测试美妆旗舰店",
+            "first_message_at": "2026-05-10 02:36:15",
+            "last_message_at": "2026-05-13 09:29:15"
+          },
+          "orders": [
+            {
+              "order_no": "6920834449460645989",
+              "product_name": "测试丝绒唇釉 #01赤茶红",
+              "quantity": 2.0,
+              "paid_amount": 338.0,
+              "order_status": "已发货",
+              "ordered_at": "2026-05-10 02:36:15",
+              "paid_at": "2026-05-10 02:57:15",
+              "shipped_at": "2026-05-11 00:57:15",
+              "carrier": "顺丰速运",
+              "tracking_no": "SF1693302183374"
+            }
+          ],
+          "tickets": [
+            {
+              "ticket_no": "BH946416168326",
+              "ticket_type": "补发换货",
+              "order_no": "6920834449460645989",
+              "status": "已完结",
+              "handler": "A02",
+              "created_at": "2026-05-13 09:29:15",
+              "completed_at": "2026-05-13 11:52:15",
+              "detail": {
+                "工单类型": "换货",
+                "售后原因": "换货-到手破损",
+                "发出商品货号": "XC30101",
+                "发出商品名称": "测试丝绒唇釉 #01赤茶红",
+                "数量": 1,
+                "原订单物流单号": "SF1693302183374",
+                "补发物流单号": "YT7626025598990",
+                "快递公司": "圆通快递",
+                "发货仓库": "测试供应链华南仓",
+                "客诉加急": "是"
+              }
+            }
+          ],
+          "timeline": [
+            {
+              "event_time": "2026-05-10 02:36:15",
+              "event_type": "order",
+              "title": "创建订单",
+              "status": "已发货",
+              "source_type": "order",
+              "source_id": "6920834449460645989"
+            },
+            {
+              "event_time": "2026-05-13 09:02:15",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "67888253569617.PNM"
+            },
+            {
+              "event_time": "2026-05-13 09:02:59",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "19222036505044.PNM"
+            },
+            {
+              "event_time": "2026-05-13 09:04:01",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "13172315202622.PNM"
+            },
+            {
+              "event_time": "2026-05-13 09:05:18",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "48596283283981.PNM"
+            },
+            {
+              "event_time": "2026-05-13 09:06:27",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "63815657377920.PNM"
+            },
+            {
+              "event_time": "2026-05-13 09:09:05",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "82135978766915.PNM"
+            },
+            {
+              "event_time": "2026-05-13 09:09:35",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "48540701615245.PNM"
+            },
+            {
+              "event_time": "2026-05-13 09:29:15",
+              "event_type": "ticket",
+              "title": "补发换货工单",
+              "status": "已完结",
+              "source_type": "ticket",
+              "source_id": "BH946416168326"
+            }
+          ]
+        }
+      },
+      {
+        "retrieval": {
+          "chunk_id": "S00076:chunk:000",
+          "parent_id": "session:S00076",
+          "session_id": "S00076",
+          "score": 0.03101,
+          "sources": [
+            "bm25",
+            "dense"
+          ]
+        },
+        "matched_history_text": "历史服务会话：S00076\n买家:我在专柜对比了，你们发的粉底液膏体颜色不一样，质地也稀，是不是给我发的假货？！哦\n客服:亲请放心，官方旗舰店所有商品与专柜同源，绝无假货。不同批次间原料存在合理差异~您可以刮开防伪码验证，也可以把批次号发我帮您查~\n买家:批次号26A27，你查！查不出来我就去平台举报，急\n客服:查到批次26A27为今年3月正常生产批次，质检报告可以发您。当然，如果您仍不放心，完全支持退货退款，运费我们承担，绝不让您勉强使用哈~\n买家:行，那退吧，报告也发我一份，我自己看\n客服:好的亲，退货申请这边直接给您通过，质检报告已发送。仓库签收后当天退款~\n买家:收到，处理挺痛快，就是希望品控上点心\n客服:好的亲，还有其他可以帮您的吗？祝您生活愉快~\n系统推送:【测试积分】您已累计2860积分，可在积分商城兑换小样好礼，快来看看~",
+        "business_facts": {
+          "session": {
+            "session_id": "S00076",
+            "buyer_nickname": "贺**",
+            "store": "测试美妆旗舰店",
+            "first_message_at": "2026-05-02 06:29:30",
+            "last_message_at": "2026-05-08 16:03:30"
+          },
+          "orders": [
+            {
+              "order_no": "6920527885849331832",
+              "product_name": "测试轻透粉底液30ml #N02自然色",
+              "quantity": 1.0,
+              "paid_amount": 259.0,
+              "order_status": "已发货",
+              "ordered_at": "2026-05-02 06:29:30",
+              "paid_at": "2026-05-02 06:53:30",
+              "shipped_at": "2026-05-04 10:53:30",
+              "carrier": "申通快递",
+              "tracking_no": "773766140701841"
+            }
+          ],
+          "tickets": [
+            {
+              "ticket_no": "KOC2531140",
+              "ticket_type": "售后退货",
+              "order_no": "6920527885849331832",
+              "status": "已完结",
+              "handler": "G001",
+              "created_at": "2026-05-08 16:03:30",
+              "completed_at": "2026-05-08 21:36:30",
+              "detail": {
+                "包裹类型": "质疑正品退货",
+                "退货原因": "协商一致退款",
+                "退货物流单号": "463489998443198",
+                "快递公司": "韵达快递",
+                "退款编号": "TK996702548",
+                "签收建议": "同意签收-协商一致退货",
+                "是否异常": "是"
+              }
+            }
+          ],
+          "timeline": [
+            {
+              "event_time": "2026-05-02 06:29:30",
+              "event_type": "order",
+              "title": "创建订单",
+              "status": "已发货",
+              "source_type": "order",
+              "source_id": "6920527885849331832"
+            },
+            {
+              "event_time": "2026-05-08 15:52:30",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "87876031612223.PNM"
+            },
+            {
+              "event_time": "2026-05-08 15:52:56",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "62747503042360.PNM"
+            },
+            {
+              "event_time": "2026-05-08 15:53:44",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "92900836378476.PNM"
+            },
+            {
+              "event_time": "2026-05-08 15:56:02",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "99981856230927.PNM"
+            },
+            {
+              "event_time": "2026-05-08 15:57:05",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "12231567697227.PNM"
+            },
+            {
+              "event_time": "2026-05-08 15:57:33",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "44823773515997.PNM"
+            },
+            {
+              "event_time": "2026-05-08 15:58:07",
+              "event_type": "chat",
+              "title": "买家消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "72152884051374.PNM"
+            },
+            {
+              "event_time": "2026-05-08 15:59:09",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "37234694467079.PNM"
+            },
+            {
+              "event_time": "2026-05-08 16:00:06",
+              "event_type": "chat",
+              "title": "客服消息",
+              "status": null,
+              "source_type": "chat",
+              "source_id": "69182903606382.PNM"
+            },
+            {
+              "event_time": "2026-05-08 16:03:30",
+              "event_type": "ticket",
+              "title": "售后退货工单",
+              "status": "已完结",
+              "source_type": "ticket",
+              "source_id": "KOC2531140"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

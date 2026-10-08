@@ -1,0 +1,7 @@
+{
+  "model_name": "BAAI/bge-small-zh-v1.5",
+  "collection_name": "conversation_memory",
+  "chunk_count": 138,
+  "vector_size": 512,
+  "distance": "COSINE"
+}

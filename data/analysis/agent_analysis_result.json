@@ -1,0 +1,262 @@
+{
+  "schema_version": "agent_analysis_v1",
+  "session_id": "S00001",
+  "query": "收到的粉底液泵头坏了，怎么处理",
+  "final": {
+    "intent": {
+      "categories": [],
+      "primary_category": "无法判断",
+      "confidence": 0.0
+    },
+    "emotion": {
+      "label": "无法判断",
+      "intensity": "unknown",
+      "trend": "unknown",
+      "reason": "本次运行跳过了 LLM",
+      "evidence_message_ids": [],
+      "sentiment_polarity": "positive"
+    },
+    "service_need": "",
+    "risk": {
+      "level": "low",
+      "score": 1,
+      "types": [
+        "negative_sentiment"
+      ],
+      "reasons": [
+        "情感模型在消费者消息中识别到负面情绪"
+      ],
+      "keyword_hits": {
+        "high_risk": [],
+        "repeat_service": [],
+        "delay": []
+      },
+      "latest_buyer_polarity": "positive"
+    },
+    "reply_strategy": "",
+    "order_binding": {
+      "binding_status": "linked",
+      "binding_source": "message_relation",
+      "target_order_no": "6920185815517983396",
+      "candidate_order_nos": [
+        "6920185815517983396"
+      ],
+      "referenced_ticket_nos": [
+        "BH919209358357"
+      ],
+      "needs_human_confirmation": false,
+      "binding_feedback": "消息中的业务关联明确指向一笔订单，且已通过当前输入记录核对。"
+    }
+  },
+  "raw_analysis": {
+    "sentiment_model": {
+      "model_name": "IDEA-CCNL/Erlangshen-Roberta-110M-Sentiment",
+      "message_results": [
+        {
+          "message_id": "20974795108539.PNM",
+          "message_seq": 1,
+          "text": "你好，收到的粉底液泵头是坏的，按不出来东西，急",
+          "model_label": "Negative",
+          "polarity": "negative",
+          "score": 0.96567
+        },
+        {
+          "message_id": "80525870445254.PNM",
+          "message_seq": 3,
+          "text": "喏，图发你了",
+          "model_label": "Positive",
+          "polarity": "positive",
+          "score": 0.710877
+        },
+        {
+          "message_id": "94357468399952.PNM",
+          "message_seq": 5,
+          "text": "行，那尽快哈",
+          "model_label": "Positive",
+          "polarity": "positive",
+          "score": 0.7571
+        }
+      ]
+    },
+    "llm": {
+      "status": "skipped",
+      "error": null,
+      "analysis": {
+        "intent": {
+          "categories": [],
+          "primary_category": "无法判断",
+          "confidence": 0.0
+        },
+        "emotion": {
+          "label": "无法判断",
+          "intensity": "unknown",
+          "trend": "unknown",
+          "reason": "本次运行跳过了 LLM",
+          "evidence_message_ids": []
+        },
+        "service_need": "",
+        "missing_information": [
+          "LLM 未成功返回上下文分析"
+        ],
+        "risk_hypotheses": [],
+        "reply_strategy": "",
+        "evidence": []
+      }
+    },
+    "rule_risk": {
+      "level": "low",
+      "score": 1,
+      "types": [
+        "negative_sentiment"
+      ],
+      "reasons": [
+        "情感模型在消费者消息中识别到负面情绪"
+      ],
+      "keyword_hits": {
+        "high_risk": [],
+        "repeat_service": [],
+        "delay": []
+      },
+      "latest_buyer_polarity": "positive"
+    },
+    "order_binding": {
+      "schema_version": "1.0",
+      "session_id": "S00001",
+      "scope": "current_case",
+      "binding_status": "linked",
+      "binding_source": "message_relation",
+      "candidate_order_nos": [
+        "6920185815517983396"
+      ],
+      "target_order_no": "6920185815517983396",
+      "referenced_ticket_nos": [
+        "BH919209358357"
+      ],
+      "has_explicit_reference": true,
+      "needs_human_confirmation": false,
+      "binding_feedback": "消息中的业务关联明确指向一笔订单，且已通过当前输入记录核对。",
+      "candidate_orders": [
+        {
+          "order_no": "6920185815517983396",
+          "product_name": "测试轻透粉底液30ml #N02自然色",
+          "quantity": 1.0,
+          "paid_amount": 259.0,
+          "order_status": "已发货",
+          "ordered_at": "2026-04-29 08:27:45",
+          "paid_at": "2026-04-29 08:50:45",
+          "shipped_at": "2026-04-30 08:50:45",
+          "carrier": "中通快递",
+          "tracking_no": "773478190943155"
+        }
+      ],
+      "target_order": {
+        "order_no": "6920185815517983396",
+        "product_name": "测试轻透粉底液30ml #N02自然色",
+        "quantity": 1.0,
+        "paid_amount": 259.0,
+        "order_status": "已发货",
+        "ordered_at": "2026-04-29 08:27:45",
+        "paid_at": "2026-04-29 08:50:45",
+        "shipped_at": "2026-04-30 08:50:45",
+        "carrier": "中通快递",
+        "tracking_no": "773478190943155"
+      },
+      "target_tickets": [
+        {
+          "ticket_no": "BH919209358357",
+          "ticket_type": "补发换货",
+          "order_no": "6920185815517983396",
+          "status": "进行中",
+          "handler": "G003",
+          "created_at": "2026-05-05 10:29:45",
+          "completed_at": null,
+          "detail": {
+            "工单类型": "换货",
+            "售后原因": "换货-到手破损",
+            "发出商品货号": "XC33003",
+            "发出商品名称": "测试轻透粉底液30ml #N02自然色",
+            "数量": 1,
+            "原订单物流单号": "773478190943155",
+            "补发物流单号": "YT7667875838478",
+            "快递公司": "圆通快递",
+            "发货仓库": "测试美妆分销中心",
+            "客诉加急": "否"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "message_id": "20974795108539.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "20974795108539.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "51831669257761.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "51831669257761.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "80525870445254.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "80525870445254.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "22703823958720.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "22703823958720.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "94357468399952.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "94357468399952.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "36199788469718.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "36199788469718.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        }
+      ],
+      "issues": []
+    }
+  },
+  "evidence": [],
+  "missing_information": [
+    "LLM 未成功返回上下文分析"
+  ]
+}

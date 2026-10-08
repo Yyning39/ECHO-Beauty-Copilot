@@ -1,0 +1,10 @@
+{
+  "purpose": "清洗后的赛事业务数据",
+  "files": [
+    "chat_messages.jsonl",
+    "orders.jsonl",
+    "tickets.jsonl",
+    "quality_report.json"
+  ],
+  "next_step": "构建服务事件和历史服务记忆 Chunk"
+}

@@ -1,0 +1,651 @@
+{
+  "schema_version": "copilot_pipeline_v1",
+  "session_id": "S00001",
+  "query": "收到的粉底液泵头坏了，怎么办？",
+  "analysis_cutoff": {
+    "message_id": "20974795108539.PNM",
+    "message_seq": 1,
+    "sent_at": "2026-05-05 10:18:45"
+  },
+  "context": {
+    "query": "收到的粉底液泵头坏了，怎么办？",
+    "current_session_id": "S00001",
+    "analysis_cutoff": {
+      "message_id": "20974795108539.PNM",
+      "message_seq": 1,
+      "sent_at": "2026-05-05 10:18:45"
+    },
+    "retrieval": {
+      "embedding_model": "BAAI/bge-small-zh-v1.5",
+      "collection_name": "conversation_memory",
+      "bm25_result_count": 20,
+      "dense_result_count": 20,
+      "hybrid_result_count": 5,
+      "hybrid_results": [
+        {
+          "chunk_id": "S00001:chunk:000",
+          "parent_id": "session:S00001",
+          "session_id": "S00001",
+          "buyer_nicknames": [
+            "邓e**"
+          ],
+          "order_nos": [
+            "6920185815517983396"
+          ],
+          "ticket_nos": [
+            "BH919209358357"
+          ],
+          "chunk_index": 0,
+          "message_count": 6,
+          "start_at": null,
+          "end_at": null,
+          "text": "历史服务会话：S00001\n买家:你好，收到的粉底液泵头是坏的，按不出来东西，急\n客服:亲亲抱歉！麻烦拍下破损部位的照片发给测试客服，为您核实换货哈~\n买家:喏，图发你了\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:行，那尽快哈\n客服:换货单已创建，48小时内发出，给您带来不便啦~",
+          "message_ids": [
+            "20974795108539.PNM",
+            "51831669257761.PNM",
+            "80525870445254.PNM",
+            "22703823958720.PNM",
+            "94357468399952.PNM",
+            "36199788469718.PNM"
+          ],
+          "doc_id": 0,
+          "source_index": 0,
+          "bm25_score": 19.358295,
+          "matched_query_tokens": [
+            "收到",
+            "的",
+            "粉底液",
+            "泵头",
+            "坏",
+            "了"
+          ],
+          "rrf_score": 0.032787,
+          "retrieval_sources": [
+            "bm25",
+            "dense"
+          ],
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "dense_score": 0.772945,
+          "point_id": 0,
+          "score": 0.772945
+        },
+        {
+          "chunk_id": "S00137:chunk:000",
+          "parent_id": "session:S00137",
+          "session_id": "S00137",
+          "buyer_nicknames": [
+            "杨b**"
+          ],
+          "order_nos": [
+            "6920091662302260596"
+          ],
+          "ticket_nos": [
+            "BH819557327939"
+          ],
+          "chunk_index": 0,
+          "message_count": 6,
+          "start_at": null,
+          "end_at": null,
+          "text": "历史服务会话：S00137\n买家:你好，收到的发膜泵头是坏的，按不出来东西\n客服:亲亲抱歉！麻烦拍下破损部位的照片发给测试客服，为您核实换货~\n买家:照片发过去了，帮我处理下吧\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:好的，谢谢\n客服:换货单已创建，48小时内发出，给您带来不便啦~",
+          "message_ids": [
+            "10771589530439.PNM",
+            "16244313117328.PNM",
+            "18738871329607.PNM",
+            "54132325059434.PNM",
+            "77628749614537.PNM",
+            "74506675133145.PNM"
+          ],
+          "doc_id": 109,
+          "source_index": 109,
+          "bm25_score": 10.038259,
+          "matched_query_tokens": [
+            "收到",
+            "的",
+            "坏",
+            "了"
+          ],
+          "rrf_score": 0.032258,
+          "retrieval_sources": [
+            "bm25",
+            "dense"
+          ],
+          "bm25_rank": 2,
+          "dense_rank": 2,
+          "dense_score": 0.668337,
+          "point_id": 109,
+          "score": 0.668337
+        },
+        {
+          "chunk_id": "S00203:chunk:000",
+          "parent_id": "session:S00203",
+          "session_id": "S00203",
+          "buyer_nicknames": [
+            "爱h**"
+          ],
+          "order_nos": [
+            "6920834449460645989"
+          ],
+          "ticket_nos": [
+            "BH946416168326"
+          ],
+          "chunk_index": 0,
+          "message_count": 7,
+          "start_at": null,
+          "end_at": null,
+          "text": "历史服务会话：S00203\n买家:你好，收到的唇釉泵头是坏的，按不出来东西\n客服:亲抱歉！麻烦拍下破损部位的照片发给欣欣，为您核实换货呢~\n买家:照片发过去了，帮我处理下吧\n客服:收到亲，确认属包装破损，为您登记换货：先给您发全新的，收到后用包裹里的面单把坏的寄回就好，运费我们出~\n买家:在吗，好的，谢谢\n客服:换货单已创建，48小时内发出，给您带来不便啦~\n客服:后续有任何问题随时找欣欣哦，祝您使用愉快~",
+          "message_ids": [
+            "67888253569617.PNM",
+            "19222036505044.PNM",
+            "13172315202622.PNM",
+            "48596283283981.PNM",
+            "63815657377920.PNM",
+            "82135978766915.PNM",
+            "48540701615245.PNM"
+          ],
+          "doc_id": 124,
+          "source_index": 124,
+          "bm25_score": 9.679462,
+          "matched_query_tokens": [
+            "收到",
+            "的",
+            "坏",
+            "了"
+          ],
+          "rrf_score": 0.031746,
+          "retrieval_sources": [
+            "bm25",
+            "dense"
+          ],
+          "bm25_rank": 3,
+          "dense_rank": 3,
+          "dense_score": 0.646124,
+          "point_id": 124,
+          "score": 0.646124
+        },
+        {
+          "chunk_id": "S00076:chunk:000",
+          "parent_id": "session:S00076",
+          "session_id": "S00076",
+          "buyer_nicknames": [
+            "贺**"
+          ],
+          "order_nos": [
+            "6920527885849331832"
+          ],
+          "ticket_nos": [
+            "KOC2531140"
+          ],
+          "chunk_index": 0,
+          "message_count": 9,
+          "start_at": null,
+          "end_at": null,
+          "text": "历史服务会话：S00076\n买家:我在专柜对比了，你们发的粉底液膏体颜色不一样，质地也稀，是不是给我发的假货？！哦\n客服:亲请放心，官方旗舰店所有商品与专柜同源，绝无假货。不同批次间原料存在合理差异~您可以刮开防伪码验证，也可以把批次号发我帮您查~\n买家:批次号26A27，你查！查不出来我就去平台举报，急\n客服:查到批次26A27为今年3月正常生产批次，质检报告可以发您。当然，如果您仍不放心，完全支持退货退款，运费我们承担，绝不让您勉强使用哈~\n买家:行，那退吧，报告也发我一份，我自己看\n客服:好的亲，退货申请这边直接给您通过，质检报告已发送。仓库签收后当天退款~\n买家:收到，处理挺痛快，就是希望品控上点心\n客服:好的亲，还有其他可以帮您的吗？祝您生活愉快~\n系统推送:【测试积分】您已累计2860积分，可在积分商城兑换小样好礼，快来看看~",
+          "message_ids": [
+            "87876031612223.PNM",
+            "62747503042360.PNM",
+            "92900836378476.PNM",
+            "99981856230927.PNM",
+            "12231567697227.PNM",
+            "44823773515997.PNM",
+            "72152884051374.PNM",
+            "37234694467079.PNM",
+            "69182903606382.PNM"
+          ],
+          "doc_id": 75,
+          "source_index": 75,
+          "bm25_score": 5.991823,
+          "matched_query_tokens": [
+            "收到",
+            "的",
+            "粉底液",
+            "了"
+          ],
+          "rrf_score": 0.03101,
+          "retrieval_sources": [
+            "bm25",
+            "dense"
+          ],
+          "bm25_rank": 5,
+          "dense_rank": 4,
+          "dense_score": 0.549719,
+          "point_id": 75,
+          "score": 0.549719
+        },
+        {
+          "chunk_id": "S00013:chunk:000",
+          "parent_id": "session:S00013",
+          "session_id": "S00013",
+          "buyer_nicknames": [
+            "孙**"
+          ],
+          "order_nos": [],
+          "ticket_nos": [],
+          "chunk_index": 0,
+          "message_count": 8,
+          "start_at": null,
+          "end_at": null,
+          "text": "历史服务会话：S00013\n买家:hi 在吗呢\n客服:您好，我是测试客服，请问有什么可以帮您？\n买家:唉，有优惠券吗，购物车加到259了还差多少能用券\n客服:您好，现在下单测试轻透粉底液30ml #01自然白就送测试发膜体验装30ml呢，618当天还有限量加赠，看您着不着急用哈~\n买家:凑单买个唇釉能到满减门槛不\n客服:可以的呢，加购唇釉正好满足满减门槛，到手价更划算哦哈~\n买家:懂了，谢谢美女，急\n客服:后续有任何问题随时找测试客服哦，祝您使用愉快~",
+          "message_ids": [
+            "67186543908100.PNM",
+            "46775562287348.PNM",
+            "61931722770278.PNM",
+            "78514912130689.PNM",
+            "79316225830191.PNM",
+            "48044291145826.PNM",
+            "47413021934282.PNM",
+            "55304308400899.PNM"
+          ],
+          "doc_id": 12,
+          "source_index": 12,
+          "bm25_score": 6.07846,
+          "matched_query_tokens": [
+            "的",
+            "粉底液",
+            "了"
+          ],
+          "rrf_score": 0.028783,
+          "retrieval_sources": [
+            "bm25",
+            "dense"
+          ],
+          "bm25_rank": 4,
+          "dense_rank": 16,
+          "dense_score": 0.494715,
+          "point_id": 12,
+          "score": 0.494715
+        }
+      ]
+    },
+    "business_context": {
+      "analysis_cutoff": {
+        "message_id": "20974795108539.PNM",
+        "message_seq": 1,
+        "sent_at": "2026-05-05 10:18:45"
+      },
+      "current_case": {
+        "session": {
+          "session_id": "S00001",
+          "buyer_nickname": "邓e**",
+          "store": "测试美妆旗舰店",
+          "first_message_at": "2026-04-29 08:27:45",
+          "last_message_at": "2026-05-05 10:18:45"
+        },
+        "orders": [
+          {
+            "order_no": "6920185815517983396",
+            "product_name": "测试轻透粉底液30ml #N02自然色",
+            "quantity": 1.0,
+            "paid_amount": 259.0,
+            "order_status": "已发货",
+            "ordered_at": "2026-04-29 08:27:45",
+            "paid_at": "2026-04-29 08:50:45",
+            "shipped_at": "2026-04-30 08:50:45",
+            "carrier": "中通快递",
+            "tracking_no": "773478190943155"
+          }
+        ],
+        "tickets": [],
+        "timeline": [
+          {
+            "event_time": "2026-04-29 08:27:45",
+            "event_type": "order",
+            "title": "创建订单",
+            "status": "已发货",
+            "source_type": "order",
+            "source_id": "6920185815517983396"
+          },
+          {
+            "event_time": "2026-05-05 10:18:45",
+            "event_type": "chat",
+            "title": "买家消息",
+            "status": null,
+            "source_type": "chat",
+            "source_id": "20974795108539.PNM"
+          }
+        ],
+        "messages": [
+          {
+            "message_id": "20974795108539.PNM",
+            "message_seq": 1,
+            "sent_at": "2026-05-05 10:18:45",
+            "role": "买家",
+            "message_text": "你好，收到的粉底液泵头是坏的，按不出来东西，急",
+            "related_order_no": "6920185815517983396",
+            "related_ticket_no": null,
+            "content_type": "文本",
+            "chat_content": "[{\"index\": 0, \"content\": \"你好，收到的粉底液泵头是坏的，按不出来东西，急\"}]",
+            "image_path": null
+          }
+        ]
+      },
+      "historical_evidence": [],
+      "context_metadata": {
+        "future_message_filter_applied": true,
+        "historical_time_filter_applied": true,
+        "snapshot_status_may_be_current_state": true
+      }
+    }
+  },
+  "order_binding": {
+    "schema_version": "1.0",
+    "session_id": "S00001",
+    "scope": "current_case",
+    "binding_status": "linked",
+    "binding_source": "message_relation",
+    "candidate_order_nos": [
+      "6920185815517983396"
+    ],
+    "target_order_no": "6920185815517983396",
+    "referenced_ticket_nos": [],
+    "has_explicit_reference": true,
+    "needs_human_confirmation": false,
+    "binding_feedback": "消息中的业务关联明确指向一笔订单，且已通过当前输入记录核对。",
+    "candidate_orders": [
+      {
+        "order_no": "6920185815517983396",
+        "product_name": "测试轻透粉底液30ml #N02自然色",
+        "quantity": 1.0,
+        "paid_amount": 259.0,
+        "order_status": "已发货",
+        "ordered_at": "2026-04-29 08:27:45",
+        "paid_at": "2026-04-29 08:50:45",
+        "shipped_at": "2026-04-30 08:50:45",
+        "carrier": "中通快递",
+        "tracking_no": "773478190943155"
+      }
+    ],
+    "target_order": {
+      "order_no": "6920185815517983396",
+      "product_name": "测试轻透粉底液30ml #N02自然色",
+      "quantity": 1.0,
+      "paid_amount": 259.0,
+      "order_status": "已发货",
+      "ordered_at": "2026-04-29 08:27:45",
+      "paid_at": "2026-04-29 08:50:45",
+      "shipped_at": "2026-04-30 08:50:45",
+      "carrier": "中通快递",
+      "tracking_no": "773478190943155"
+    },
+    "target_tickets": [],
+    "evidence": [
+      {
+        "message_id": "20974795108539.PNM",
+        "source_field": "related_order_no",
+        "order_no": "6920185815517983396"
+      }
+    ],
+    "issues": []
+  },
+  "analysis": {
+    "schema_version": "agent_analysis_v3",
+    "session_id": "S00001",
+    "query": "收到的粉底液泵头坏了，怎么办？",
+    "final": {
+      "intent": {
+        "scene_major": "无法判断",
+        "scene_minor": "无法判断",
+        "user_request": "无法判断",
+        "confidence": 0.0
+      },
+      "emotion": {
+        "label": "无法判断",
+        "intensity": "unknown",
+        "trend": "unknown",
+        "reason": "本次运行跳过了 LLM",
+        "evidence_message_ids": [],
+        "sentiment_polarity": "negative"
+      },
+      "service_need": "",
+      "risk": {
+        "level": "low",
+        "score": 1,
+        "types": [
+          "negative_sentiment"
+        ],
+        "reasons": [
+          "情感模型在消费者消息中识别到负面情绪"
+        ],
+        "keyword_hits": {
+          "high_risk": [],
+          "repeat_service": [],
+          "delay": []
+        },
+        "latest_buyer_polarity": "negative"
+      },
+      "reply_strategy": "",
+      "missing_information": [
+        {
+          "field_code": "other",
+          "field": "LLM 上下文分析结果",
+          "reason": "本次运行跳过了 LLM",
+          "required_for": "生成细粒度意图、情绪和服务建议",
+          "obtain_from": "human_review"
+        }
+      ],
+      "known_but_not_communicated": [],
+      "recommended_actions": [
+        {
+          "action": "人工检查当前会话并补充分析",
+          "owner": "human_review",
+          "priority": "high",
+          "basis": "本次运行跳过了 LLM"
+        }
+      ],
+      "order_binding": {
+        "binding_status": "linked",
+        "binding_source": "message_relation",
+        "target_order_no": "6920185815517983396",
+        "candidate_order_nos": [
+          "6920185815517983396"
+        ],
+        "referenced_ticket_nos": [],
+        "needs_human_confirmation": false,
+        "binding_feedback": "消息中的业务关联明确指向一笔订单，且已通过当前输入记录核对。"
+      }
+    },
+    "raw_analysis": {
+      "sentiment_model": {
+        "model_name": "IDEA-CCNL/Erlangshen-Roberta-110M-Sentiment",
+        "message_results": [
+          {
+            "message_id": "20974795108539.PNM",
+            "message_seq": 1,
+            "text": "你好，收到的粉底液泵头是坏的，按不出来东西，急",
+            "model_label": "Negative",
+            "polarity": "negative",
+            "score": 0.96567
+          }
+        ]
+      },
+      "llm": {
+        "status": "skipped",
+        "error": null,
+        "analysis": {
+          "intent": {
+            "scene_major": "无法判断",
+            "scene_minor": "无法判断",
+            "user_request": "无法判断",
+            "confidence": 0.0
+          },
+          "emotion": {
+            "label": "无法判断",
+            "intensity": "unknown",
+            "trend": "unknown",
+            "reason": "本次运行跳过了 LLM",
+            "evidence_message_ids": []
+          },
+          "service_need": "",
+          "missing_information": [
+            {
+              "field_code": "other",
+              "field": "LLM 上下文分析结果",
+              "reason": "本次运行跳过了 LLM",
+              "required_for": "生成细粒度意图、情绪和服务建议",
+              "obtain_from": "human_review"
+            }
+          ],
+          "known_but_not_communicated": [],
+          "recommended_actions": [
+            {
+              "action": "人工检查当前会话并补充分析",
+              "owner": "human_review",
+              "priority": "high",
+              "basis": "本次运行跳过了 LLM"
+            }
+          ],
+          "risk_hypotheses": [],
+          "reply_strategy": "",
+          "evidence": []
+        }
+      },
+      "rule_risk": {
+        "level": "low",
+        "score": 1,
+        "types": [
+          "negative_sentiment"
+        ],
+        "reasons": [
+          "情感模型在消费者消息中识别到负面情绪"
+        ],
+        "keyword_hits": {
+          "high_risk": [],
+          "repeat_service": [],
+          "delay": []
+        },
+        "latest_buyer_polarity": "negative"
+      },
+      "information_validation": {
+        "removed_missing_items": [],
+        "removed_known_items": [],
+        "known_fact_codes": [
+          "carrier",
+          "order_no",
+          "original_tracking_no"
+        ]
+      },
+      "order_binding": {
+        "schema_version": "1.0",
+        "session_id": "S00001",
+        "scope": "current_case",
+        "binding_status": "linked",
+        "binding_source": "message_relation",
+        "candidate_order_nos": [
+          "6920185815517983396"
+        ],
+        "target_order_no": "6920185815517983396",
+        "referenced_ticket_nos": [],
+        "has_explicit_reference": true,
+        "needs_human_confirmation": false,
+        "binding_feedback": "消息中的业务关联明确指向一笔订单，且已通过当前输入记录核对。",
+        "candidate_orders": [
+          {
+            "order_no": "6920185815517983396",
+            "product_name": "测试轻透粉底液30ml #N02自然色",
+            "quantity": 1.0,
+            "paid_amount": 259.0,
+            "order_status": "已发货",
+            "ordered_at": "2026-04-29 08:27:45",
+            "paid_at": "2026-04-29 08:50:45",
+            "shipped_at": "2026-04-30 08:50:45",
+            "carrier": "中通快递",
+            "tracking_no": "773478190943155"
+          }
+        ],
+        "target_order": {
+          "order_no": "6920185815517983396",
+          "product_name": "测试轻透粉底液30ml #N02自然色",
+          "quantity": 1.0,
+          "paid_amount": 259.0,
+          "order_status": "已发货",
+          "ordered_at": "2026-04-29 08:27:45",
+          "paid_at": "2026-04-29 08:50:45",
+          "shipped_at": "2026-04-30 08:50:45",
+          "carrier": "中通快递",
+          "tracking_no": "773478190943155"
+        },
+        "target_tickets": [],
+        "evidence": [
+          {
+            "message_id": "20974795108539.PNM",
+            "source_field": "related_order_no",
+            "order_no": "6920185815517983396"
+          }
+        ],
+        "issues": []
+      }
+    },
+    "evidence": [],
+    "missing_information": [
+      {
+        "field_code": "other",
+        "field": "LLM 上下文分析结果",
+        "reason": "本次运行跳过了 LLM",
+        "required_for": "生成细粒度意图、情绪和服务建议",
+        "obtain_from": "human_review"
+      }
+    ],
+    "known_but_not_communicated": [],
+    "recommended_actions": [
+      {
+        "action": "人工检查当前会话并补充分析",
+        "owner": "human_review",
+        "priority": "high",
+        "basis": "本次运行跳过了 LLM"
+      }
+    ]
+  },
+  "reply": {
+    "schema_version": "reply_suggestion_v1",
+    "session_id": "S00001",
+    "delivery_mode": "human_assist_only",
+    "suggested_reply": {
+      "text": "您好，您的问题我已经了解。我会根据当前记录继续为您核实处理。",
+      "status": "draft_for_human_review",
+      "generated_by": "template_fallback",
+      "tone": "empathetic"
+    },
+    "reply_basis": [],
+    "missing_information": [
+      {
+        "field_code": "other",
+        "field": "LLM 上下文分析结果",
+        "reason": "本次运行跳过了 LLM",
+        "required_for": "生成细粒度意图、情绪和服务建议",
+        "obtain_from": "human_review"
+      }
+    ],
+    "agent_actions": [
+      {
+        "action": "人工检查当前会话并补充分析",
+        "owner": "human_review",
+        "priority": "high",
+        "basis": "本次运行跳过了 LLM"
+      }
+    ],
+    "prohibited_claims": [
+      "不得把其他消费者的历史案例事实写入当前回复",
+      "不得承诺未经系统确认的退款到账时间、赔偿金额或处理结果",
+      "不得把候选订单当成已经确认的目标订单",
+      "不得声称已经执行尚未执行的查询、催促、退款或工单操作"
+    ],
+    "needs_human_confirmation": true,
+    "review_reasons": [
+      "存在需要消费者或人工补充的信息"
+    ],
+    "llm_status": "fallback",
+    "llm_error": null,
+    "raw_llm_result": null
+  },
+  "observability": {
+    "stage_timings_ms": {
+      "retrieval_context_ms": 11262.94,
+      "order_binding_ms": 0.04,
+      "agent_analysis_ms": 3945.89,
+      "reply_generation_ms": 0.35,
+      "total_ms": 15209.24
+    },
+    "human_assist_only": true,
+    "auto_send_enabled": false
+  }
+}

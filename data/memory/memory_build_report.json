@@ -1,0 +1,9 @@
+{
+  "episode_count": 138,
+  "chunk_count": 138,
+  "episodes_with_messages": 138,
+  "episodes_without_messages": 0,
+  "chunks_without_parent": 0,
+  "missing_parent_ids": [],
+  "ready_for_embedding": true
+}

@@ -1,0 +1,41 @@
+{
+  "records": {
+    "chats": 998,
+    "orders": 113,
+    "tickets": 80,
+    "buyers": 112,
+    "sessions": 138
+  },
+  "duplicates": {
+    "order_no": [],
+    "ticket_no": [],
+    "message_id": []
+  },
+  "relationships": {
+    "chat_order_reference_not_found": {
+      "count": 0,
+      "sample": []
+    },
+    "chat_ticket_reference_not_found": {
+      "count": 0,
+      "sample": []
+    },
+    "session_with_multiple_orders": {
+      "count": 0,
+      "sample": []
+    },
+    "session_with_multiple_tickets": {
+      "count": 0,
+      "sample": []
+    },
+    "orders_without_session": {
+      "count": 0
+    },
+    "tickets_without_session": {
+      "count": 0
+    }
+  },
+  "ready_for_next_step": true,
+  "source_file": "D:\\Program Files (x86)\\download\\赛题 1：数据共情者-业务数据.xlsx",
+  "generated_at": "2026-09-12T15:57:57"
+}

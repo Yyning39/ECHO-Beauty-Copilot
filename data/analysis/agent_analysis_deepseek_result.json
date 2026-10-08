@@ -1,0 +1,356 @@
+{
+  "schema_version": "agent_analysis_v1",
+  "session_id": "S00001",
+  "query": "收到的粉底液泵头坏了，怎么处理",
+  "final": {
+    "intent": {
+      "categories": [
+        "售后换货",
+        "商品破损",
+        "物流催促"
+      ],
+      "primary_category": "售后换货",
+      "confidence": 0.95
+    },
+    "emotion": {
+      "label": "缓和",
+      "intensity": "low",
+      "trend": "falling",
+      "reason": "买家首条消息反馈粉底液泵头损坏无法按压并称“急”，情感模型对message_id=20974795108539.PNM判定为Negative（0.96567），存在明显焦虑/不满；客服致歉并引导拍照后，买家message_id=80525870445254.PNM配合发送图片，客服给出“先发新件、坏件寄回、运费承担”的换货方案后，买家message_id=94357468399952.PNM回复“行，那尽快哈”，情绪已回落为接受与平静，整体呈下降缓和趋势。",
+      "evidence_message_ids": [
+        "20974795108539.PNM",
+        "80525870445254.PNM",
+        "94357468399952.PNM"
+      ],
+      "sentiment_polarity": "positive"
+    },
+    "service_need": "确认泵头破损问题已进入换货流程，并希望尽快收到换货商品（买家明确催促“尽快”），需要客服同步换货单进度与补发物流信息。",
+    "risk": {
+      "level": "low",
+      "score": 1,
+      "types": [
+        "negative_sentiment"
+      ],
+      "reasons": [
+        "情感模型在消费者消息中识别到负面情绪"
+      ],
+      "keyword_hits": {
+        "high_risk": [],
+        "repeat_service": [],
+        "delay": []
+      },
+      "latest_buyer_polarity": "positive"
+    },
+    "reply_strategy": "先安抚并确认泵头破损换货已受理、无需买家额外举证（图片已提供）；明确告知换货单已创建及预计发出时效，可在系统确认后同步补发物流单号与寄回方式；对买家“尽快”的诉求给出可跟进的节点说明，避免承诺具体到货时间或赔偿结果；如临近时效未发出，主动说明进度并致歉。",
+    "order_binding": {
+      "binding_status": "linked",
+      "binding_source": "message_relation",
+      "target_order_no": "6920185815517983396",
+      "candidate_order_nos": [
+        "6920185815517983396"
+      ],
+      "referenced_ticket_nos": [
+        "BH919209358357"
+      ],
+      "needs_human_confirmation": false,
+      "binding_feedback": "消息中的业务关联明确指向一笔订单，且已通过当前输入记录核对。"
+    }
+  },
+  "raw_analysis": {
+    "sentiment_model": {
+      "model_name": "IDEA-CCNL/Erlangshen-Roberta-110M-Sentiment",
+      "message_results": [
+        {
+          "message_id": "20974795108539.PNM",
+          "message_seq": 1,
+          "text": "你好，收到的粉底液泵头是坏的，按不出来东西，急",
+          "model_label": "Negative",
+          "polarity": "negative",
+          "score": 0.96567
+        },
+        {
+          "message_id": "80525870445254.PNM",
+          "message_seq": 3,
+          "text": "喏，图发你了",
+          "model_label": "Positive",
+          "polarity": "positive",
+          "score": 0.710877
+        },
+        {
+          "message_id": "94357468399952.PNM",
+          "message_seq": 5,
+          "text": "行，那尽快哈",
+          "model_label": "Positive",
+          "polarity": "positive",
+          "score": 0.7571
+        }
+      ]
+    },
+    "llm": {
+      "status": "success",
+      "error": null,
+      "analysis": {
+        "intent": {
+          "categories": [
+            "售后换货",
+            "商品破损",
+            "物流催促"
+          ],
+          "primary_category": "售后换货",
+          "confidence": 0.95
+        },
+        "emotion": {
+          "label": "缓和",
+          "intensity": "low",
+          "trend": "falling",
+          "reason": "买家首条消息反馈粉底液泵头损坏无法按压并称“急”，情感模型对message_id=20974795108539.PNM判定为Negative（0.96567），存在明显焦虑/不满；客服致歉并引导拍照后，买家message_id=80525870445254.PNM配合发送图片，客服给出“先发新件、坏件寄回、运费承担”的换货方案后，买家message_id=94357468399952.PNM回复“行，那尽快哈”，情绪已回落为接受与平静，整体呈下降缓和趋势。",
+          "evidence_message_ids": [
+            "20974795108539.PNM",
+            "80525870445254.PNM",
+            "94357468399952.PNM"
+          ]
+        },
+        "service_need": "确认泵头破损问题已进入换货流程，并希望尽快收到换货商品（买家明确催促“尽快”），需要客服同步换货单进度与补发物流信息。",
+        "missing_information": [
+          "买家对换货时效（48小时内发出）是否接受、是否需要在超时前主动跟进提醒",
+          "买家是否需要同步补发物流单号（工单已存在补发物流单号 YT7667875838478，尚未在会话中告知买家）"
+        ],
+        "risk_hypotheses": [
+          "客服承诺“48小时内发出”，若补发未按时发出，买家可能由缓和转为不满甚至升级投诉（工单 BH919209358357 状态为“进行中”，客诉加急为“否”）",
+          "换货需买家配合寄回坏件，若包裹内面单缺失或寄回流程不清晰，可能产生二次纠纷",
+          "补发商品仍可能存在泵头破损等质量问题，导致重复售后风险"
+        ],
+        "reply_strategy": "先安抚并确认泵头破损换货已受理、无需买家额外举证（图片已提供）；明确告知换货单已创建及预计发出时效，可在系统确认后同步补发物流单号与寄回方式；对买家“尽快”的诉求给出可跟进的节点说明，避免承诺具体到货时间或赔偿结果；如临近时效未发出，主动说明进度并致歉。",
+        "evidence": [
+          {
+            "source_type": "current_message",
+            "source_id": "20974795108539.PNM",
+            "claim": "买家反馈收到的粉底液泵头损坏、按不出东西，并使用“急”表达催促"
+          },
+          {
+            "source_type": "current_message",
+            "source_id": "80525870445254.PNM",
+            "claim": "买家按客服要求发送破损部位照片，配合售后举证"
+          },
+          {
+            "source_type": "current_message",
+            "source_id": "94357468399952.PNM",
+            "claim": "买家接受换货方案并回复“行，那尽快哈”，情绪转为接受、以催促时效为主"
+          },
+          {
+            "source_type": "current_message",
+            "source_id": "36199788469718.PNM",
+            "claim": "客服告知换货单已创建、48小时内发出（客服表述，非消费者情绪）"
+          },
+          {
+            "source_type": "current_order",
+            "source_id": "6920185815517983396",
+            "claim": "目标订单为测试轻透粉底液30ml #N02自然色，已发货，中通快递单号773478190943155"
+          },
+          {
+            "source_type": "current_ticket",
+            "source_id": "BH919209358357",
+            "claim": "补发换货工单进行中，售后原因为换货-到手破损，补发物流单号YT7667875838478，客诉加急为否"
+          },
+          {
+            "source_type": "history",
+            "source_id": "S00137",
+            "claim": "历史会话存在“泵头损坏—拍照—登记换货—先发新件后寄回”的相似处理路径，仅作流程参考，非当前用户事实"
+          }
+        ]
+      }
+    },
+    "rule_risk": {
+      "level": "low",
+      "score": 1,
+      "types": [
+        "negative_sentiment"
+      ],
+      "reasons": [
+        "情感模型在消费者消息中识别到负面情绪"
+      ],
+      "keyword_hits": {
+        "high_risk": [],
+        "repeat_service": [],
+        "delay": []
+      },
+      "latest_buyer_polarity": "positive"
+    },
+    "order_binding": {
+      "schema_version": "1.0",
+      "session_id": "S00001",
+      "scope": "current_case",
+      "binding_status": "linked",
+      "binding_source": "message_relation",
+      "candidate_order_nos": [
+        "6920185815517983396"
+      ],
+      "target_order_no": "6920185815517983396",
+      "referenced_ticket_nos": [
+        "BH919209358357"
+      ],
+      "has_explicit_reference": true,
+      "needs_human_confirmation": false,
+      "binding_feedback": "消息中的业务关联明确指向一笔订单，且已通过当前输入记录核对。",
+      "candidate_orders": [
+        {
+          "order_no": "6920185815517983396",
+          "product_name": "测试轻透粉底液30ml #N02自然色",
+          "quantity": 1.0,
+          "paid_amount": 259.0,
+          "order_status": "已发货",
+          "ordered_at": "2026-04-29 08:27:45",
+          "paid_at": "2026-04-29 08:50:45",
+          "shipped_at": "2026-04-30 08:50:45",
+          "carrier": "中通快递",
+          "tracking_no": "773478190943155"
+        }
+      ],
+      "target_order": {
+        "order_no": "6920185815517983396",
+        "product_name": "测试轻透粉底液30ml #N02自然色",
+        "quantity": 1.0,
+        "paid_amount": 259.0,
+        "order_status": "已发货",
+        "ordered_at": "2026-04-29 08:27:45",
+        "paid_at": "2026-04-29 08:50:45",
+        "shipped_at": "2026-04-30 08:50:45",
+        "carrier": "中通快递",
+        "tracking_no": "773478190943155"
+      },
+      "target_tickets": [
+        {
+          "ticket_no": "BH919209358357",
+          "ticket_type": "补发换货",
+          "order_no": "6920185815517983396",
+          "status": "进行中",
+          "handler": "G003",
+          "created_at": "2026-05-05 10:29:45",
+          "completed_at": null,
+          "detail": {
+            "工单类型": "换货",
+            "售后原因": "换货-到手破损",
+            "发出商品货号": "XC33003",
+            "发出商品名称": "测试轻透粉底液30ml #N02自然色",
+            "数量": 1,
+            "原订单物流单号": "773478190943155",
+            "补发物流单号": "YT7667875838478",
+            "快递公司": "圆通快递",
+            "发货仓库": "测试美妆分销中心",
+            "客诉加急": "否"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "message_id": "20974795108539.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "20974795108539.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "51831669257761.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "51831669257761.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "80525870445254.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "80525870445254.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "22703823958720.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "22703823958720.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "94357468399952.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "94357468399952.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "36199788469718.PNM",
+          "source_field": "related_order_no",
+          "order_no": "6920185815517983396"
+        },
+        {
+          "message_id": "36199788469718.PNM",
+          "source_field": "related_ticket_no",
+          "ticket_no": "BH919209358357",
+          "order_no": "6920185815517983396"
+        }
+      ],
+      "issues": []
+    }
+  },
+  "evidence": [
+    {
+      "source_type": "current_message",
+      "source_id": "20974795108539.PNM",
+      "claim": "买家反馈收到的粉底液泵头损坏、按不出东西，并使用“急”表达催促"
+    },
+    {
+      "source_type": "current_message",
+      "source_id": "80525870445254.PNM",
+      "claim": "买家按客服要求发送破损部位照片，配合售后举证"
+    },
+    {
+      "source_type": "current_message",
+      "source_id": "94357468399952.PNM",
+      "claim": "买家接受换货方案并回复“行，那尽快哈”，情绪转为接受、以催促时效为主"
+    },
+    {
+      "source_type": "current_message",
+      "source_id": "36199788469718.PNM",
+      "claim": "客服告知换货单已创建、48小时内发出（客服表述，非消费者情绪）"
+    },
+    {
+      "source_type": "current_order",
+      "source_id": "6920185815517983396",
+      "claim": "目标订单为测试轻透粉底液30ml #N02自然色，已发货，中通快递单号773478190943155"
+    },
+    {
+      "source_type": "current_ticket",
+      "source_id": "BH919209358357",
+      "claim": "补发换货工单进行中，售后原因为换货-到手破损，补发物流单号YT7667875838478，客诉加急为否"
+    },
+    {
+      "source_type": "history",
+      "source_id": "S00137",
+      "claim": "历史会话存在“泵头损坏—拍照—登记换货—先发新件后寄回”的相似处理路径，仅作流程参考，非当前用户事实"
+    }
+  ],
+  "missing_information": [
+    "买家对换货时效（48小时内发出）是否接受、是否需要在超时前主动跟进提醒",
+    "买家是否需要同步补发物流单号（工单已存在补发物流单号 YT7667875838478，尚未在会话中告知买家）"
+  ]
+}

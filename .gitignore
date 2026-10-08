@@ -9,10 +9,11 @@ __pycache__/
 .env.*
 !.env.example
 
-# Competition data, generated indexes, model outputs, and the live database.
-# Keep only the placeholder so a fresh checkout has the data directory.
-/data/*
-!/data/.gitkeep
+# Keep runtime locks out of Git; project data itself is versioned.
+/data/qdrant/.lock
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
 *.sqlite3-journal
 *.sqlite3-wal
 *.sqlite3-shm
