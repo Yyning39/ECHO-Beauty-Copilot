@@ -1,0 +1,21 @@
+{
+  "dataset_version": "echo-agent-prelabels-v1",
+  "source_totals": {
+    "messages": 998,
+    "sessions": 138,
+    "orders": 113,
+    "tickets": 80
+  },
+  "selected_sessions": 82,
+  "observed_scenes": 41,
+  "buyer_message_nodes": 294,
+  "high_priority_nodes": 68,
+  "label_status": "auto_proposed_not_gold",
+  "limitations": [
+    "Do not use future messages as Agent input",
+    "Order/ticket creation timestamps do not reconstruct historical status",
+    "Historical policies are not versioned",
+    "Scene metadata is not gold intent",
+    "Do not split nodes from one session across train/test"
+  ]
+}
